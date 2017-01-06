@@ -1,0 +1,178 @@
+
+img{
+
+	max-width: 100%;
+	display: block;
+
+}
+body{
+
+	font-family: 'Source Sans Pro', sans-serif;
+	margin:0;
+	padding: 0;
+	font-size: 18px;
+	color: #333;
+}
+
+#header{
+
+	width: 1000px;
+	margin: 20px auto;
+	overflow: hidden;
+	border: 1px solid #333;
+	box-shadow: 6px 6px 0 rgb(189, 158, 67);
+}
+
+header{
+
+	width: 100%;
+	overflow: hidden;
+}
+
+.logo{
+
+	width: 25%;
+	float: left;
+}
+.logo img{}
+
+nav{
+
+	width: 75%;
+	float: left;
+	padding-top: 10px;
+}
+nav ul{
+
+	margin:0;
+	padding:0;
+	margin-left:30px;
+}
+nav ul li{
+
+	list-style: none;
+	float: left;
+
+}
+nav ul li a{
+
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	display: block;
+	color: #333;
+}
+nav ul li a:hover{
+
+	background: #243C6E;
+	color: #fff;
+	transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+}
+
+.galleries{
+
+	margin-top: 30px;
+
+}
+
+ .gallery{
+
+ 	width: 25%;
+ 	float: left;
+ 	padding: 5px;
+ 	box-sizing: border-box; 
+ 	-moz-box-sizing: border-box; 
+ 	-webkit-box-sizing: border-box; 
+ }
+
+ .gallery img{
+
+ 	
+ }
+
+ .gallery .caption{
+
+ 	padding:10px;
+ 	background: #2C426F;
+ 	color: #899B77;
+ }
+
+ .gallery .caption h2{
+
+ 	margin: 0;
+ 	color: #62891F;
+
+ }
+
+ .gallery .caption p{
+
+ 	margin-top:5px;
+ 	line-height: 1.4; 
+ }
+
+ .gallery .caption a{
+
+ 	color:#899B77;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ 	font-size: 12px;
+ }
+
+footer{
+
+	padding: 8px 0;
+	overflow: hidden;
+	width: 100%;
+
+}
+ .copyright{
+
+ 	width: 50%;
+ 	float: left;
+ }
+
+ .copyright p{
+
+ 	margin: 0;
+ 	padding: 0;
+ 	margin-left: 5px;
+ }
+
+ .social{
+
+ 	width: 50%;
+ 	float: left;
+ }
+
+ .social ol{
+ 	margin: 0;
+ 	padding: 0;
+ }
+ .social ol li{
+
+ 	float: left;
+ 	list-style: none;
+ }
+ .social ol li a{
+
+ 	text-decoration: none;
+ 	background: #059647;
+ 	color: #fff;
+ 	margin-right: 5px;
+ 	display: block;
+ 	height: 25px;
+ 	width: 25px;
+ 	text-align: center;
+ 	font-size: 14px;
+ 	line-height: 25px;
+ 	transition: all 1s ease-in-out;
+ 	-moz-transition: all 1s ease-in-out;
+ 	-webkit-transition: all 1s ease-in-out;
+ }
+ .social ol li a:hover{
+
+ 	background: #fff;
+ 	color: #059647;
+ }
